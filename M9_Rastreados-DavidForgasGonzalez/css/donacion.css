@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+#titulo_donacion{
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+
+    text-align: center;
+    margin-top: 30vh;
+}
+
+#p_donacion{
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-size: x-large;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10vh;
+}
+
+#donacion_section button{
+    font-size: x-large;
+    font-weight: bold;
+    padding: auto;
+    margin-top: 7vh;
+    margin-left: 39vw;
+    width: 400px;
+    height: 100px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color:#ffac38 ;
+    color: white;
+}
+#donacion_section a{
+    color: white;
+}

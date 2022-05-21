@@ -1,0 +1,45 @@
+.llistagossos{
+    display: flex;
+    flex: wrap;
+    gap: 2rem;
+}
+
+.llistagossos div:nth-of-type(2){
+    background-color: #DF880D;
+}
+
+.gos{
+    /*width: 200px;
+    height: 200px;*/
+    background-color: #6ee2ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+        ' foto foto '
+        ' nombre edad'
+    ;
+    border-radius: 25%;
+    /*z-index: -3;*/
+}
+
+.gos img{
+    grid-area: foto;
+    /*z-index: -2;*/
+}
+
+
+.gos h1{
+    grid-area: nombre;
+    /*z-index: -2;*/
+}
+
+.gos h2{
+    grid-area: edad;
+    /*z-index: -2;*/
+}
+
+
+
+
+
