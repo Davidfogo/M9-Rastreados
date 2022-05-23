@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+header{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    /*padding:30px 10%;*/
+    background: #33C0E2;
+    display: grid;
+    grid-template-columns: 20vw 1fr 18vw;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        ' logo navLinks navBotones'
+    ;
+    
+}
+
+.logo {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    grid-area: logo;
+    margin:auto;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#nav_links_header{
+    grid-area: navLinks;
+    
+}
+
+#nav_botones{
+    grid-area: navBotones;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    'login register'
+    ;
+    
+}
+
+li,  button{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.nav_links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        ' sobreNosotros animales donaciones voluntariado darEnAdopcion'  
+        ;
+    list-style: none;
+    margin-top: 2%;
+}
+
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-weight: bold;
+}
+
+.nav_links li a:hover{
+    color: #ffffff;
+}
+
+#a_sobreNosotros{
+    grid-area: sobreNosotros;
+    margin: auto;
+}
+
+#a_animales{
+    grid-area: animales;
+    margin: auto;
+}
+
+#a_donaciones{
+    grid-area: donaciones;
+    margin: auto;
+}
+
+#a_voluntariado{
+    grid-area: voluntariado;
+    margin: auto;
+}
+
+#a_darEnAdopcion{
+    grid-area: darEnAdopcion;
+    margin: auto;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #DF880D;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-weight: bold;
+    grid-area: botones;
+}
+
+
+button:hover{
+    background-color: #ffac38;
+}
+
+.login{
+    grid-area: login;
+    margin: auto;
+}
+
+.register{
+    grid-area: register;
+    margin: auto;
+}
