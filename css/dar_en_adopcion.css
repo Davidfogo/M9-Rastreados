@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+.contenidoDarAdopcion{
+    width: 40%;
+    text-align: center;
+    
+}
+
+.contenidoDarAdopcion h1{
+    margin-top: 30vh;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+}
+
+.textoDarAdopcion{
+    margin-top: 5vh;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: x-large;
+
+   
+}
+
+#email{
+    width: 40%;
+    border-radius: 5px; 
+
+}
+
+.botonEnviar{
+    width: 50%;
+    margin-left: 10px;
+    
+    font-weight: bold;
+    color: white;
+    background-color: #33C0E2;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.botonEnviar:hover{
+    background-color: #6ee2ff;
+}
+
+.textoemail{
+    padding-top: 7vh;
+    font-family: 'Georgia', sans-serif;
+    font-size: large;
+
+    font-weight: bold;
+}
+
